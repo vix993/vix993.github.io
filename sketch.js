@@ -26,7 +26,6 @@ function mousePressed(){
   }
 }
 function keyPressed(){
-  game.keyPressed(keyCode);
   if (currentScene == 'game'){
     game.keyPressed(keyCode);
   }
