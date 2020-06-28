@@ -14,7 +14,7 @@ function preload(){
   imageEnemy2 = loadImage('imagens/inimigos/malezombiespritemap.png');
   imageEnemyFly = loadImage('imagens/inimigos/fallenangel.png');
   
-  gameSound = createAudio('sounds/funkybeatforgame.mp3');
+  gameSound = loadSound('sounds/funkybeatforgame.mp3');
   enemyJumpSound = loadSound('sounds/jumpeffect.mp3');
   heroJumpSound = loadSound('sounds/herojump.mp3');
   heroSlashSound = loadSound('sons/slashing.mp3');
