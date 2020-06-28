@@ -169,6 +169,7 @@ class Game {
     }
     if (!sampleIsPlaying) {
       gameSound.loop();
+	    sampleIsPlaying = true;
     }
 
     points.addPoint();

@@ -24,7 +24,6 @@ function preload(){
   
   fita = loadJSON('fita/fita.json')
   
-  imageGameOver = loadImage('imagens/assets/game-over.png');
   welcomeScreenBG = loadImage('imagens/cenario/4_game_background.png');
   imageHeroBlink = loadImage('imagens/personagem/reaperblinking.png');
   gameFont = loadFont('imagens/assets/mononoki.ttf')
