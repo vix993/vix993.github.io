@@ -7,7 +7,6 @@ function preload(){
   
   imageHero = loadImage('imagens/personagem/reaperManSpriteMap.png');
   imageHeroJump = loadImage('imagens/personagem/reaperManJump.png');
-  imageHeroSlide = loadImage('imagens/personagem/slidingreaper.png');
   imageHeroSlash = loadImage('imagens/personagem/reapermanslash.png');
   imageSword = loadImage('imagens/collected/Sword.png')
   
@@ -21,7 +20,6 @@ function preload(){
   heroSlashSound = loadSound('sons/slashing.mp3');
   damageSound = loadSound('sons/bambo sfx.mp3');
   defeatSound = loadSound('sons/defeat effect.mp3');
-  welcomeSound = loadSound('sons/success.mp3');
   equipSwordSound = loadSound('sons/equipitem.mp3')
   
   fita = loadJSON('fita/fita.json')

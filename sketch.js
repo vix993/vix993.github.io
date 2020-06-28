@@ -13,7 +13,6 @@ function setup() {
   game.setup();
   welcomeScreen.setup();
   gameOver.setup();
-  gameSound.loop();
   scenes = {
     welcomeScreen,
     controls,
