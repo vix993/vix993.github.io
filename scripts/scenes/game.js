@@ -64,7 +64,6 @@ class Game {
     hammer.on("swipe", swiped);
 
     gameSound.volume(0.5);
-    gameSound.loop();
     heroJumpSound.setVolume(0.2);
     heroSlashSound.setVolume(0.5);
     enemyJumpSound.setVolume(0.5);
