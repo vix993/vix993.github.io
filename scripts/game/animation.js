@@ -40,7 +40,6 @@ class Animation {
       if (sfx) {
         sfx.play();
       }
-      //console.log('jump executed')
     }
   }
 
@@ -85,7 +84,6 @@ class Animation {
     if (this.currentFrame > this.matrix.length - 1) {
       if (isSlashing && isHero){
         isSlashing = false;
-        console.log('animate function isSlashing' + isSlashing)
       }
       this.currentFrame = 0;
     }

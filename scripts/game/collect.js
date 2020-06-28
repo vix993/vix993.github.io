@@ -43,7 +43,6 @@ class Collect {
   }
   renderTimer() {
       frameRef2++
-      console.log('rendertimer' + swordDuration)
       textAlign(RIGHT)
       textSize(30)
       fill('#fff')

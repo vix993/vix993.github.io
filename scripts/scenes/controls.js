@@ -13,17 +13,13 @@ class Controls {
     console.log(event);
     if (event.direction == 4) {
       msg = "you swiped right";
-      console.log(msg);
     } else if (event.direction == 2) {
       msg = "you swiped left";
-      console.log(msg);
     } else if (event.direction == 16) {
       msg = "swiped down"
-      console.log(msg);
     } else if (event.direction == 8) {
       currentScene = 'game';
       msg = "swiped up"
-      console.log(msg);
     }
   }
   draw(){

@@ -33,7 +33,6 @@ class Game {
     heroAnimations.push(heroRun);
     heroAnimations.push(heroJump);
     heroAnimations.push(heroSlash)
-    console.log(heroAnimations);
 
     const enemy = new Enemy(enemyMatrix, imageEnemy1, width - enemyGameWidth, 30,
       enemyGameWidth, enemyGameHeight,
@@ -77,7 +76,6 @@ class Game {
     heroAnimations.forEach(heroAnimation => {
       heroAnimation.jump(-30, maxJumpHero, heroJumpSound);
     })
-    console.log(maxJumpHero)
     maxJumpHero--;
   }
 
@@ -100,13 +98,10 @@ class Game {
     }
   }
   swiped(event) {
-    console.log(event);
     if (event.direction == 4) {
       msg = "you swiped right";
-      console.log(msg);
     } else if (event.direction == 2) {
       msg = "you swiped left";
-      console.log(msg);
     } else if (event.direction == 16 && isSwordCollected) {
       heroSlashSound.play();
       isSlashing = true;
@@ -115,10 +110,8 @@ class Game {
           isCoolDown = false;
         }, 500)
       msg = "swiped down"
-      console.log(msg);
     } else if (event.direction == 8) {
       msg = "swiped up"
-      console.log(msg);
     }
   }
   draw() {
@@ -161,7 +154,6 @@ class Game {
         setTimeout(() => {
           isSwordCollected = false;
         }, 15000)
-        console.log('isSwordColelcted' + isSwordCollected)
       }
     }
     if (isSwordCollected){

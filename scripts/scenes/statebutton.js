@@ -15,6 +15,5 @@ class StateButton{
   _changeState(){
     this.button.hide();
     currentScene = this.scene;
-     
   }
 }
